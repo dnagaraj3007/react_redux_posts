@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Post from './components/Post'
+import PostForm from './components/PostForm'
+
 
 
 function App() {
   return (
 
-    <div className="App">   
+    <div className="App">
+        <PostForm/>   
         <hr/>
+        <Post/>
     </div>
   );
 }
